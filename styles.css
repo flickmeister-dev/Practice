@@ -1,0 +1,349 @@
+@font-face{
+
+    font-family: "Jura";
+
+    src: url('fonts/Jura-VariableFont_wght.ttf');
+
+    font-weight: normal;
+
+    font-style: normal;
+
+}
+
+.body {
+    font-family: Jura;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #F2C220;
+}
+
+.navbar {
+    display: inline-flex;
+    height: 80px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 80px;
+}
+
+.progress {
+    background: #4a4c65;
+    padding: 0;
+    margin: 0;
+    width: 250px;
+    height: 15px;
+    clip-path: polygon(2% 0, 98% 0, 100% 30%, 100% 70%, 98% 100%, 2% 100%, 0% 70%, 0% 30%);
+
+}
+
+.progress-bar {
+    background: #f3c21f;
+    clip-path: polygon(2% 0, 97% 0, 100% 30%, 100% 70%, 97% 100%, 2% 100%, 0% 70%, 0% 30%);
+}
+
+
+.main-content {
+    display: none;
+    background-color: #f2c220;
+    width: 380px;
+    height: 400px;
+    padding: 0;
+}
+
+.container {
+    clip-path: polygon(5% 0, 95% 0, 100% 5%, 100% 95%, 95% 100%, 5% 100%, 0 95%, 0 5%);
+}
+
+.main-content h2 {
+    margin: 15px 0 15px 0;
+    font-family: Jura;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    color: #4c4a58;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    background-color: #4a4c65;
+    width: 100%;
+    height: 300px;
+    clip-path: polygon(5% 0, 95% 0, 100% 6%, 100% 94%, 95% 100%, 5% 100%, 0 95%, 0 6%);
+}
+
+.content {
+    width: 300px;
+}
+
+.store-item {
+    padding-top: 10px;
+    height: 60px;
+}
+
+.store-button {
+    width: 100%;
+    background-color: #9ea8ed;
+    border: 0;
+    height: 50px;
+    clip-path: polygon(8% 0, 92% 0, 100% 28%, 100% 71%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+}
+
+
+.store-title {
+    color: #474970;
+    font-family: Jura;
+    font-size: 27px;
+}
+
+.store-img {
+
+}
+
+.block-store-img {
+    padding-left: 10px;
+    float: left;
+    position: absolute;
+    top: 20%;
+}
+
+.store-block-title {
+
+}
+
+.store-button-vip {
+    width: 100%;
+    background-color: #9ea8ed;
+    border: 0;
+    height: 50px;
+    clip-path: polygon(8% 0, 92% 0, 100% 28%, 100% 71%, 92% 100%, 8% 100%, 0 70%, 0 30%);
+    background-image: linear-gradient(to right, #d9443e, #f0c322);
+}
+
+.main-content-chat {
+    display: none;
+    background-color: #f2c220;
+    width: 380px;
+    height: 440px;
+    padding: 0;
+}
+
+.main-content-chat h2 {
+    margin: 15px 0 15px 0;
+    font-family: Jura;
+    font-weight: 600;
+    font-size: 37px;
+    text-align: center;
+    color: #4c4a58;
+}
+
+.content-container-chat {
+    background-color: #4a4c65;
+    width: 100%;
+    height: 340px;
+    clip-path: polygon(5% 0, 95% 0, 100% 6%, 100% 94%, 95% 100%, 5% 100%, 0 95%, 0 6%);
+}
+
+.chat-header {
+    background-color: #707396;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-header-content {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-header-content h4 {
+    font-family: Jura;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 15px;
+    color: #fffffa;
+}
+
+.chat-left {
+    font-family: Jura;
+    display: table;
+    background-color: #757bab;
+    height: 35px;
+    float: left;
+    width: 60%;
+    clip-path: polygon(5% 0, 94% 0, 100% 25%, 100% 76%, 95% 100%, 6% 100%, 0 77%, 0 24%);
+}
+
+.chat-left p {
+    color: #f4f3fb;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.chat-right {
+    font-family: Jura;
+    display: table;
+    height: 35px;
+    float: right;
+    background-color: #9ea8ed;
+    width: 60%;
+    clip-path: polygon(5% 0, 94% 0, 100% 25%, 100% 76%, 95% 100%, 6% 100%, 0 77%, 0 24%);
+}
+
+.chat-right p {
+    color: #f4f3fb;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 0 25px;
+    line-height: 35px;
+}
+
+.chat-left p {
+    color: #f4f3fb;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 0 25px;
+    line-height: 35px;
+}
+
+.left {
+    padding-top: 15px;
+}
+
+.right {
+    padding-top: 15px;
+}
+
+.input-container {
+    padding-top: 35px;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+    font-family: Jura;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    height: 55px;
+    padding-left: 30px;
+    clip-path: polygon(6% 0, 94% 0, 100% 24%, 100% 74%, 94% 100%, 6% 100%, 0 74%, 0 25%);
+    color: grey;
+}
+
+.send-message {
+    border: none;
+    position: absolute;
+    top: 50px;
+    right: 25px;
+    z-index: 9;
+}
+
+.main-content-menu {
+    display: none;
+    background-color: #f2c220;
+    width: 380px;
+    height: 440px;
+    padding: 0;
+}
+
+.main-content-menu h2 {
+    margin: 5px 0 10px 0;
+    font-family: Jura;
+    font-weight: 500;
+    font-size: 45px;
+    text-align: center;
+    color: #4c4a58;
+}
+
+.content-container-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #4a4c65;
+    width: 100%;
+    height: 350px;
+    clip-path: polygon(5% 0, 95% 0, 100% 6%, 100% 94%, 95% 100%, 5% 100%, 0 95%, 0 6%);
+}
+
+.content-menu {
+    width: 100%;
+}
+
+.store-item-menu-first {
+    padding-top: 15px;
+    height: 70px;
+}
+
+.store-item-menu {
+    padding-top: 10px;
+    height: 65px;
+}
+
+.store-button-menu {
+    float: right;
+    padding: 0;
+    width: 84%;
+    background-color: #9ea8ed;
+    border: 0;
+    height: 55px;
+    clip-path: polygon(2% 0, 89% 0, 100% 30%, 100% 70%, 93% 100%, 2% 100%, 7% 69%, 7% 27%);
+}
+
+.store-button-menu-left {
+    position: absolute;
+    float: left;
+    padding: 0;
+    width: 70px;
+    background-color: #666b91;
+    border: 0;
+    height: 55px;
+    clip-path: polygon(18% 0, 79% 0, 99% 27%, 99% 68%, 78% 100%, 21% 100%, 0 67%, 0 33%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
